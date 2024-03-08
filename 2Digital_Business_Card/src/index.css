@@ -1,0 +1,21 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: white;
+}
+
+body, h1, h2, h3, h4, h5, h6, a, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}

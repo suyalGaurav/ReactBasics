@@ -1,0 +1,15 @@
+.main--container {
+  background-color: #242424;
+  border: 2px solid #242424;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 90px;
+}
+
+.container {
+  border: 2px solid #161616;
+  background-color: #161616;
+  max-width: 480px;
+}

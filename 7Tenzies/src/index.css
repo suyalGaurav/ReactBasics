@@ -1,0 +1,19 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body, p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

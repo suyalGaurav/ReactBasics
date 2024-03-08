@@ -1,0 +1,61 @@
+
+.user-name {
+    margin-top: 18px;
+    font-size: 30px;
+  }
+  
+  .user--intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .user-image {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .user-name {
+    color: white;
+  }
+  
+  .user-title {
+    color: orange;
+    font-size: 20px;
+  }
+  
+  .user-web {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 7px;
+  }
+  
+  .user-email-linkedin {
+    width: 100%;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .user-email-linkedin > button {
+    width: 125px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .email > span, .linkedin > span {
+    margin-right: 8px;
+  }
+  
+  .email, .linkedin {
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .linkedin {
+    background-color: #0072b1;
+    color: white;
+  }

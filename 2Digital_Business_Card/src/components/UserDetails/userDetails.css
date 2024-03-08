@@ -1,0 +1,13 @@
+.user--details {
+    padding: 30px;
+}
+
+.about > h3, .interests > h3 {
+    margin-bottom: 5px;
+    font-size: 20px
+}
+
+.about > p, .interests > p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}

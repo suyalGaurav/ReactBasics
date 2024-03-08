@@ -1,0 +1,59 @@
+
+.search--form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category--details, .difficulty--details {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.category--details label, .difficulty--details label {
+   color: rgb(4, 73, 142);
+}
+
+#category, #difficulty {
+    position: relative;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 0px 8px 5px;
+    border: 1px solid #ccc;
+    width: 155px;
+}
+
+.search--button {
+    width: 100px;
+    height: 32px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: rgb(44, 193, 59);
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.search--button:hover {
+    background-color: rgb(19, 221, 40);
+}
+
+@media screen and (min-width: 455px) and (max-width: 585px) {
+    .form {
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+}

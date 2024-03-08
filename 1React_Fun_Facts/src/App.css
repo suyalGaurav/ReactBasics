@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #282D35;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.nav--title {
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+}
+
+main {
+  padding: 90px 27px;
+  color: white;
+  background-image: url('./assets/react-icon-large.png'); 
+  background-repeat: no-repeat; 
+  background-position: 100% 75%;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 600px;
+}
+
+.main--facts > li {
+  line-height: 40px;
+  padding-block: 10px;
+  font-size: 20px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+
+
+@media screen and (max-width: 480px) {
+  nav {
+    height: 60px;
+    padding: 10px 5px;
+  }
+
+  .nav--logo_text {
+    font-size: 20px;
+  } 
+
+  .nav--title {
+    font-size: 16px;
+  }
+
+  .nav--icon {
+    height: 25px;
+    margin-right: 7px;
+  }
+
+  main {
+    padding: 50px 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nav--logo_text {
+    font-size: 16px;
+  } 
+
+  .nav--title {
+    font-size: 12px;
+  }
+
+  .nav--icon {
+    height: 20px;
+    margin-right: 2px;
+  }
+
+  main {
+    padding: 40px 10px;
+  }
+
+  .main--facts > li {
+    font-size: 18px;
+  }
+}
